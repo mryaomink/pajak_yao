@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pajak_yaomink/dashboard_page.dart';
-import 'package:pajak_yaomink/login_page.dart';
 import 'package:pajak_yaomink/yao_sp.dart';
 
 void main() {

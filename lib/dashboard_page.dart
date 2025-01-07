@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pajak_yaomink/kalkulator_page.dart';
 import 'package:pajak_yaomink/npwp_page.dart';
 import 'package:pajak_yaomink/kurs.page.dart';
 import 'package:pajak_yaomink/yao_sp.dart';
@@ -183,7 +184,12 @@ class PajakHomePage extends StatelessWidget {
       {
         'icon': Icons.calculate_outlined,
         'label': 'Kalkulator Pajak',
-        'action': () {}
+        'action': () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const KalkulatorPage(),
+              ),
+            ),
       },
       {'icon': Icons.grid_view, 'label': 'More', 'action': () {}},
     ];
